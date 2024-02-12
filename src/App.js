@@ -16,27 +16,27 @@ const App = () => {
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
                     <div className='row mt-3'>
                         {
-                            /* Add Budget component here */
+                           <Budget /> /* Add Budget component here */
                         }        
 
                         {
-                            /* Add Remaining component here*/
+                           <Remaining /> /* Add Remaining component here*/
                         }        
 
                         {
-                            /* Add ExpenseTotal component here */
+                          <ExpenseTotal />  /* Add ExpenseTotal component here */
                         }        
                        
                         {
-                            /* Add ExpenseList component here */
+                            <ExpenseList /> /* Add ExpenseList component here */
                         }         
 
                         {
-                            /* Add ExpenseItem component here */
+                           <ExpenseItem /> /* Add ExpenseItem component here */
                         }        
 
                         {
-                            /* Add AllocationForm component here under */
+                            <AllocationForm />/* Add AllocationForm component here under */
                         }        
 
                 </div>
